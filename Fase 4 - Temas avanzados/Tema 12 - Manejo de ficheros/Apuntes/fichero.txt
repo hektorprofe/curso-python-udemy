@@ -1,4 +1,0 @@
-Una línea con texto
-Otra línea con texto
-Otra línea más con texto
-Cuarta línea del fichero
