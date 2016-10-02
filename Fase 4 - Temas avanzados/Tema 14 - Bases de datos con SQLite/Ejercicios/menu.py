@@ -1,5 +1,5 @@
-from tkinter import *
 import sqlite3
+from tkinter import *
 
 # Configuración de la raíz
 root = Tk()
@@ -10,26 +10,28 @@ root.config(bd=25, relief="sunken")
 Label(root, text="   Bar Don Costa   ", fg="darkgreen", font=("Times New Roman",28,"bold italic")).pack()
 Label(root, text="Menú del día", fg="green", font=("Times New Roman",24,"bold italic")).pack()
 
-# Separación entre categorías
-Label(root, text="").pack() 
+# Separación de títulos y categorias
+Label(root, text="").pack()
 
-conexion = sqlite3.connect('restaurante.db')
+conexion = sqlite3.connect("restaurante.db")
 cursor = conexion.cursor()
 
-categorias = cursor.execute("SELECT * FROM categoria").fetchall()
+# Buscar las categorías y platos de la bd
+categorias = cursor.execute("SELECT * FROM categoria").fetchall()	
 for categoria in categorias:
 	Label(root, text=categoria[1], fg="black", font=("Times New Roman",20,"bold italic")).pack()
 
 	platos = cursor.execute("SELECT * FROM plato WHERE categoria_id={}".format(categoria[0])).fetchall()
 	for plato in platos:
-		label_plato = Label(root, text=plato[1], fg="gray", font=("Verdana",14,"italic")).pack()
+		Label(root, text=plato[1], fg="gray", font=("Verdana",15,"italic")).pack()
 
-	# Separación entre categorías
-	Label(root, text="").pack()  
+	# Separación entre categorias
+	Label(root, text="").pack()	
 
 conexion.close()
 
-Label(root, text="12€ (IVA inc.) ", fg="darkgreen", font=("Times New Roman",20,"bold italic")).pack(side="right")
+# Precio del menú
+Label(root, text="12€ (IVA incl.)", fg="darkgreen", font=("Times New Roman",20,"bold italic")).pack(side="right")
 
-# Finalmente bucle de la apliación
+# Finalmente ejecutamos el bucle
 root.mainloop()
