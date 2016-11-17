@@ -90,3 +90,6 @@ ENV/
 
 # MAC
 .DS_Store
+
+# NOTEBOOKS BACKUPS
+.ipynb_checkpoints/
