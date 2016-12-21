@@ -23,9 +23,9 @@ Puedes comprarlo con un mega descuento del 95% haciendo clic [aquí](https://www
 * Sección 15: Interfaces gráficas con Tkinter
 * Sección 16: Bases de datos con SQLite
 * Sección 17: Funcionalidades avanzadas
-* Sección 18: Documentación y pruebas (Diciembre 2016)
-* Sección 19: Distribución (Diciembre 2016)
-* Sección 20: Anexos - Recopilaciones de ejercicios, ejemplos, módulos... (Sin fecha)
+* Sección 18: Documentación y pruebas
+* Sección 19: Distribución
+* Sección 20: Anexos - Recopilaciones (Sin fecha)
 
 Con su compra conseguirás acceso a todos las lecciones en vídeo, presentaciones, quizs y a los foros de discusión de la comunidad. Por ahora siéntete libre de navegar y ojear estos apuntes.
 
