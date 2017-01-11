@@ -25,7 +25,7 @@ Puedes comprarlo con un mega descuento del 95% haciendo clic [aquí](https://www
 * Sección 17: Funcionalidades avanzadas
 * Sección 18: Documentación y pruebas
 * Sección 19: Distribución
-* Sección 20: Anexos - Recopilaciones (Sin fecha)
+* Sección 20: Anexos
 
 Con su compra conseguirás acceso a todos las lecciones en vídeo, presentaciones, quizs y a los foros de discusión de la comunidad. Por ahora siéntete libre de navegar y ojear estos apuntes.
 
