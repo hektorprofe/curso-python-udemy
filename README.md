@@ -4,7 +4,7 @@
 
 Este es el repositorio del curso para Udemy - "Python 3 al completo desde cero". Uno de los cursos más completos y exhaustivos que encontrarás sobre Python 3. Perfectamente estructurado y balanceado, introduce todos los temas de forma sencilla, gradual y 100% práctica.
 
-Puedes comprarlo con un mega descuento del 95% haciendo clic [aquí](https://www.udemy.com/python-3-al-completo-desde-cero/?couponCode=SUPER12).
+Puedes comprarlo por 10$ con un mega descuento del 95% haciendo clic [aquí](https://www.udemy.com/python-3-al-completo-desde-cero/?couponCode=YT10PYTHON).
 
 * Sección 1: Bienvenida
 * Sección 2: El entorno de aprendizaje
