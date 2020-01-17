@@ -1,6 +1,13 @@
 import sys
-sys.path.insert(1,'..')
+
+# for v in sys.path[:]:
+#     if v == '..':
+#         sys.path.remove(v)
+
+if not ('..' in sys.path):
+    sys.path.append('..')
+    
 print(sys.path)
 
 from saludos import *
-s = Saludo()
+Saludo()
