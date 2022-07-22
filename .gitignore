@@ -2,6 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
+Backups/
+Notebook.command
 
 # C extensions
 *.so
