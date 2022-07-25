@@ -30,6 +30,7 @@ Puedes comprarlo por 12.99$ con un mega descuento del 90% haciendo clic [aquí](
 - Sección 22: Módulo Numpy
 - Sección 23: Módulo Pandas
 - Sección 24: Módulo Matplotlib
+- Sección 25: Módulo Pipenv
 
 Con su compra conseguirás acceso a todos las lecciones en vídeo, presentaciones, quizs y a los foros de discusión de la comunidad. Por ahora siéntete libre de navegar y ojear estos apuntes.
 
